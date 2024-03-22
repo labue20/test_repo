@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import requests
-
+import numpy as np
 url = "https://data.cms.gov/provider-data/api/1/datastore/query/mj5m-pzi6/0?offset=0&count=true&results=true&schema=true&keys=true&format=json&rowIds=false"
 
 combine_response_data = []
